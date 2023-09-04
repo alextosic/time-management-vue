@@ -1,4 +1,4 @@
-# Time Management App
+# Time Management Vue App
 
 ## Requirements
 
