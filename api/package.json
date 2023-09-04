@@ -1,0 +1,36 @@
+{
+    "name": "toptal-time-management-server",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "NODE_ENV=development nodemon --watch ./src ./src/bin/www",
+        "prod": "NODE_ENV=production node ./src/bin/www",
+        "test": "NODE_ENV=test PORT=4000 node ./src/bin/www",
+        "apidoc": "apidoc -i ./src/routes -o ../docs",
+        "sequelize-cli": "sequelize-cli",
+        "test:unit": "NODE_ENV=test mocha ./tests/unit --recursive",
+        "test:e2e": "NODE_ENV=test testcafe 'chrome:headless' ./tests/e2e"
+    },
+    "dependencies": {
+        "apidoc": "^0.17.7",
+        "bcrypt": "^3.0.6",
+        "chai": "^4.2.0",
+        "connect-history-api-fallback": "^1.6.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.1.0",
+        "express": "~4.16.1",
+        "express-validator": "^6.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.15",
+        "mocha": "^6.2.1",
+        "moment": "^2.24.0",
+        "morgan": "~1.9.1",
+        "mysql2": "^1.7.0",
+        "nodemon": "^1.19.3",
+        "pdfmake": "^0.1.60",
+        "sequelize": "^5.19.3",
+        "sequelize-cli": "^5.5.1",
+        "sinon": "^7.5.0",
+        "testcafe": "^1.6.0"
+    }
+}

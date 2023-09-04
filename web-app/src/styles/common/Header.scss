@@ -1,0 +1,18 @@
+.header {
+    .header-logo {
+        height: 100%;
+        cursor: pointer;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .v-toolbar__title {
+        cursor: pointer;
+    }
+
+    .v-toolbar__items {
+        margin-right: 50px;
+    }
+}

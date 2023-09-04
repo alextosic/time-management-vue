@@ -1,0 +1,19 @@
+{
+    "name": "toptal-time-management",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "client:install": "cd ./web-app && npm install",
+        "client:dev": "cd ./web-app && npm run serve",
+        "client:prod": "cd ./web-app && npm run build",
+        "client:lint": "cd ./web-app && npm run lint",
+        "server:install": "cd ./api && npm install",
+        "server:dev": "cd ./api && npm run dev",
+        "server:prod": "cd ./api && npm run prod",
+        "server:test": "cd ./api && npm run test",
+        "server:test:unit": "cd ./api && npm run test:unit",
+        "server:test:e2e": "cd ./api && npm run test:e2e",
+        "server:apidoc": "cd ./api && npm run apidoc",
+        "sequelize-cli": "cd ./api && npm run sequelize-cli"
+    }
+}

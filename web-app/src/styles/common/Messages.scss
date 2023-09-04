@@ -1,0 +1,14 @@
+.messages {
+    position: fixed;
+    top: 0;
+    align-items: flex-end !important;
+    justify-content: initial !important;
+    flex-direction: column !important;
+    pointer-events: none;
+    padding-top: 75px !important;
+
+    .v-alert {
+        width: 350px;
+        color: #ffffff !important;
+    }
+}
