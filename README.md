@@ -1,4 +1,4 @@
-# Toptal Time Management
+# Time Management App
 
 ## Requirements
 
